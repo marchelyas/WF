@@ -1,0 +1,29 @@
+name: well_favoree
+description: A new Flutter project.
+
+# The version number can be updated accordingly
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add any other dependencies here, if needed
+  device_preview: ^1.0.0 # Ensure device preview is included
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you add any assets (like images), list them here
+  # assets:
+  #   - assets/images/
